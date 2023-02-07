@@ -2,10 +2,10 @@
  0.4_DOM_Project
  ![Screenshot 2023-02-07 21 05 32](https://user-images.githubusercontent.com/105919665/217297374-f543da57-0fab-4c05-828e-31b959be7471.png)
   
-  let orange=document.querySelector('.clash-card__unit-stats--barbarian')
-    orange.style.backgroundColor="#bd7c2f"
-    orange.style.color="white"
-    let stat=document.querySelector('.no-border')
+  let orange=document.querySelector('.clash-card__unit-stats--barbarian') <br>
+    orange.style.backgroundColor="#bd7c2f"  <br>
+    orange.style.color="white"  <br>
+    let stat=document.querySelector('.no-border')<br>
     stat.style.color="white"
 
     let pink=document.querySelector('.clash-card__unit-stats--archer')
@@ -49,26 +49,25 @@
   05_DOM Projects
   ![Screenshot 2023-02-07 21 44 12](https://user-images.githubusercontent.com/105919665/217300640-6edffbae-9151-42ae-b8aa-773e6e518fcd.png)
   
-   const button=document.querySelector('.nav-center').lastElementChild
-    console.log(button)
-    button.style.display="flex"
-    const btn=document.createElement('a')
-    btn.textContent="Pro Subscription"
-    btn.classList.add('btn')
-    button.append(btn)
+   const button=document.querySelector('.nav-center').lastElementChild  <br>
+    button.style.display="flex"  <br>
+    const btn=document.createElement('a') <br>
+    btn.textContent="Pro Subscription" <br>
+    btn.classList.add('btn')  <br>
+    button.append(btn)       
 
 
 ![Screenshot 2023-02-07 21 44 23](https://user-images.githubusercontent.com/105919665/217301237-3340b6e8-e086-4208-8202-c81ec258ab9a.png)
 
-const recipe=document.querySelector('.recipe-gallery')
-    const div1=document.createElement('div')
-    div1.classList.add('card')
-   div1.style.backgroundColor="#dddddd"
-    const atag=document.createElement('a')
-     atag.classList.add("recipe-text")
-     const p=document.createElement('p')
-    p.innerText="add 6th card here"
-    atag.append(p)
-    div1.append(atag)
+const recipe=document.querySelector('.recipe-gallery') <br>
+    const div1=document.createElement('div')  <br>
+    div1.classList.add('card')     <br>
+   div1.style.backgroundColor="#dddddd"   <br>
+    const atag=document.createElement('a')   <br>
+     atag.classList.add("recipe-text")    <br>
+     const p=document.createElement('p')   <br>
+    p.innerText="add 6th card here"     <br>
+    atag.append(p)  <br>
+    div1.append(atag)  <br>
     recipe.append(div1)
 
