@@ -100,11 +100,9 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    
 }
 .recipe-gallery .card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
 
 }
 
@@ -123,14 +121,12 @@ a{
     text-transform: capitalize;
     font-size: 18px;
     margin-top: 10px;
-    color:#5E35B1;
 }
 
 .recipe-disp{
     text-transform: capitalize;
     font-size: 16px;
     margin: 10px 0;
-    color:#5E35B1;
 }
 
 .tags-container{

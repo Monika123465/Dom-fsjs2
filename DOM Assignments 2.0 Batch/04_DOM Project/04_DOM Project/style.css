@@ -32,8 +32,6 @@ body {
 .wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
-  
-  
 }
 .wrapper:focus {
   outline: 0;
@@ -118,7 +116,6 @@ body {
 
 .clash-card__level--barbarian {
   color: #ec9b3b;
-  
 }
 
 .clash-card__level--archer {
@@ -139,7 +136,7 @@ body {
 
 .clash-card div:nth-child(3) {
   font-size: 26px;
-  color: white;
+  color: black;
   font-weight: 900;
   margin-bottom: 5px;
 }
@@ -147,95 +144,58 @@ body {
 .clash-card__unit-description {
   padding: 20px;
   margin-bottom: 10px;
-  
 }
 
 
-.clash-card__unit-stats--barbarian{
-  background-color: #bd7c2f;
-  color: white;
-}
 .clash-card__unit-stats--barbarian .one-third {
-  border-right: 1px solid #aa9c95;
- 
- 
- 
+  border-right: 1px solid #bd7c2f;
 }
-.clash-card__unit-stats--archer{
-  background-color: #d04976;
-  color: white;
-}
+
 
 .clash-card__unit-stats--archer .one-third {
-  border-right: 1px solid #aa9c95;
- 
- 
+  border-right: 1px solid #d04976;
 }
 
-.clash-card__unit-stats--giant{
-  background-color: #de7b09;
-  color: white;
-
-}
 
 .clash-card__unit-stats--giant .one-third {
-  border-right: 1px solid #aa9c95;
-
- 
+  border-right: 1px solid #de7b09;
 }
 
-.clash-card__unit-stats--goblin{
-  background-color: #71a32a;
-  color: white;
-}
+
 .clash-card__unit-stats--goblin .one-third {
-  border-right: 1px solid #aa9c95;
-  
+  border-right: 1px solid #71a32a;
 }
 
-.clash-card__unit-stats--wizard{
-  background-color:#309eff ;
-  color: white;
-}
 .clash-card__unit-stats--wizard .one-third {
-  border-right: 1px solid #aa9c95;
- 
+  border-right: 1px solid #309eff;
 }
 
 .clash-card__unit-stats {
 
   font-weight: 700;
-   border-bottom-left-radius: 14px; 
-   border-bottom-right-radius: 14px; 
-
-  
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
 }
 .clash-card__unit-stats .one-third {
   width: 33%;
   float: left;
   padding: 20px 15px;
-  
-  
-  
 }
 .clash-card__unit-stats sup {
   position: absolute;
   bottom: 4px;
   font-size: 45%;
   margin-left: 2px;
-  
 }
 .clash-card__unit-stats .stat {
   position: relative;
   font-size: 24px;
   margin-bottom: 10px;
-  
 }
 .clash-card__unit-stats .stat-value {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
-  
 }
 .clash-card__unit-stats .no-border {
   border-right: none;
@@ -248,7 +208,6 @@ body {
   content: " ";
   clear: both;
   height: 0;
-  
 } 
 
 .slick-prev {

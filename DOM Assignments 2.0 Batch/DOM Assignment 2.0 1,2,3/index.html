@@ -88,3 +88,37 @@
     </footer>
   </body>
 </html>
+<script>
+  let nav=document.querySelector('.logo').nextElementSibling
+  let contact=document.querySelector('ul').lastElementChild
+nav.removeChild(contact)
+  let li=document.createElement('li')
+  let a=document.createElement('a')
+  a.textContent='Projects'
+  li.append(a)
+  let litag=document.createElement('li')
+  let b =document.createElement('a')
+  b.textContent="Hire Me"
+  litag.append(b)
+  nav.append(li,litag)
+  
+  nav.removeChild(litag)
+    
+  // let image=document.querySelector('.hero-right-section').firstElementChild
+  // image.src='https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg'
+
+//    const paragraph = document.querySelectorAll('.hero-left-section p span')
+// for(let i=0;i<paragraph.length;i++){
+//   let paraspan=paragraph[1]
+//   paraspan.textContent="an Employee"
+//   console.log(paraspan)
+// }
+
+let buttondiv=document.querySelector('.hero-right-section-btns')
+  let button=document.createElement('button')
+  button.textContent="Support Me"
+  buttondiv.append(button)
+  
+
+   
+</script>

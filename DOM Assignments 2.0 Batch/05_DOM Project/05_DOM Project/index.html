@@ -24,9 +24,8 @@
                 <a href="index.html" class="nav-link"> tags </a>
                 <a href="index.html" class="nav-link"> recipes </a>
             </div>
-            <div>
+            <div >
                 <a href="index.html" class="btn"> contact </a>
-                <a href="Pro subscription" class="btn">Pro subscription</a>
             </div>
         </div>
     </nav>
@@ -88,14 +87,6 @@
                         <p class="recipe-disp">Prep : 15min | Cook : 30min</p>
                     </a>
                 </div>
-
-                <div class="card">
-                    <a href="#" class="recipe-text">
-                        <img src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=2000" class="recipe-img " />
-                        <h5 class="recipe-name">Pizza</h5>
-                        <p class="recipe-disp">Prep : 30min | Cook : 10min</p>
-                    </a>
-                </div>
             </div>
         </section>
     </main>
@@ -120,5 +111,31 @@ let x = document.createElement("a")
 x.classList.add("btn")
 x.textContent="Recipes 2"
 'Recipes 2'
-ab.append(x)
- -->
+ab.append(x) -->
+
+
+
+<script>
+    const button=document.querySelector('.nav-center').lastElementChild
+    console.log(button)
+    button.style.display="flex"
+    const btn=document.createElement('a')
+    btn.textContent="Pro Subscription"
+    btn.classList.add('btn')
+    button.append(btn)
+
+
+    const recipe=document.querySelector('.recipe-gallery')
+    const div1=document.createElement('div')
+    div1.classList.add('card')
+   div1.style.backgroundColor="#dddddd"
+    const atag=document.createElement('a')
+     atag.classList.add("recipe-text")
+     const p=document.createElement('p')
+    p.innerText="add 6th card here"
+    atag.append(p)
+    div1.append(atag)
+    recipe.append(div1)
+
+
+</script>

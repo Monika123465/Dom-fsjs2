@@ -63,13 +63,23 @@
       <!-- right div for accpeting the user input through the form -->
       <div class="mainRight">
         <h2>User Input Board</h2>
-        <form>
-          <input class="userName" type="text" placeholder="Enter Your Name" required>
-          <input class="userEmail" type="email" placeholder="Enter Your Email" required>
-          <textarea class="userMessage" placeholder="Message" required></textarea>
+        <form action="/contact/contact.html" method="GET">
+          <input class="userName" name="username" type="text" placeholder="Enter Your Name" required>
+          <input class="userEmail" name="useremail" type="email" placeholder="Enter Your Email" required>
+          <textarea class="userMessage" name="message' placeholder="Message" required></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>
     </main>
   </body>
 </html>
+<script>
+  let form=document.querySelector('form')
+
+  // const formData = 
+  // console.log(URLSearchParams)
+  
+  
+
+
+</script>
