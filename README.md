@@ -71,3 +71,13 @@ const recipe=document.querySelector('.recipe-gallery') <br>
     div1.append(atag)  <br>
     recipe.append(div1)
 
+06_DOM Projects
+![Screenshot 2023-02-07 21 56 01](https://user-images.githubusercontent.com/105919665/217303774-bc1925f2-28c8-46fa-8034-f341838b8cae.png)
+
+let imagediv=document.querySelector('.logo') <br>
+   imagediv.src="./assets/ineuron-logo.png" 
+   
+![Screenshot 2023-02-07 21 56 08](https://user-images.githubusercontent.com/105919665/217304388-10a605d2-dc14-486b-8cdd-f9cdeaf37934.png)
+let appprice=document.querySelector(".app_price span") <br>
+   appprice.textContent="$10"
+  
