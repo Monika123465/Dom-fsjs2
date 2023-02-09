@@ -146,7 +146,24 @@ let news=document.querySelector('aside') <br>
  let title=document.querySelector('h1') <br>
    title.style.color="#DC143C" <br>
  let button=document.querySelector('.add-to-cart') <br>
-  button.style.backgroundColor="#DC143C" <br>
+  button.style.backgroundColor="#DC143C" 
+  
+  DOM Assignment 2.0 1,2,3
+  ![Screenshot 2023-02-06 12 07 49](https://user-images.githubusercontent.com/105919665/217862592-2dd4f647-9ebb-4cbb-b9ce-c20dccf33d0c.png)
+
+let nav=document.querySelector('.logo').nextElementSibling <br>
+  let contact=document.querySelector('ul').lastElementChild <br>
+nav.removeChild(contact) <br>
+  let li=document.createElement('li') <br>
+  let a=document.createElement('a')  <br>
+  a.textContent='Projects' <br>
+  li.append(a)  <br>
+  let litag=document.createElement('li')  <br>
+  let b =document.createElement('a') <br>
+  b.textContent="Hire Me" <br>
+  litag.append(b)  <br>
+  nav.append(li,litag) 
+  
 
    
   
