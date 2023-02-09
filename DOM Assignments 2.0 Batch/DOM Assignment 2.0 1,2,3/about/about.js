@@ -10,9 +10,6 @@ let appenddata=document.querySelector('.accordian-wrapper')
 appenddata.append(accordiandiv)
 
 let accordian = document.querySelectorAll(".accordian h3");
-console.log(accordian)
-
-
 accordian.forEach((element) => {
   element.style.backgroundColor="#d2c2fd"
   element.addEventListener("click", () => {
@@ -26,7 +23,4 @@ accordian.forEach((element) => {
 });
 
 
-//  console.log(bg)
-  // bg.style.backgroundColor="#E1BEE7"
-// h3.style.color="red"
-//ek aur hai
+

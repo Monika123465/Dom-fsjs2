@@ -147,10 +147,13 @@
   let body=document.body
   body.style.backgroundImage='none'
 
+  const navbartoggler = document.querySelector('.navbar-toggler')
+  navbartoggler.addEventListener('click', () => {
+    const elem = document.querySelector('#navbarTogglerDemo01')
+    elem.classList.toggle('show')
+    
+  })
 
- 
   
-      
-      
     
 </script>
