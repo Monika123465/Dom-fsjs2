@@ -142,7 +142,7 @@ let news=document.querySelector('aside') <br>
   })
   
   09_DOM Project
-  ![Screenshot 2023-02-09 20 54 13](https://user-images.githubusercontent.com/105919665/217855919-cc5288c8-2d76-4d98-9939-4cd084c1f505.png)
+ 01. ![Screenshot 2023-02-09 20 54 13](https://user-images.githubusercontent.com/105919665/217855919-cc5288c8-2d76-4d98-9939-4cd084c1f505.png)
  let title=document.querySelector('h1') <br>
    title.style.color="#DC143C" <br>
  let button=document.querySelector('.add-to-cart') <br>
@@ -164,6 +164,78 @@ nav.removeChild(contact) <br>
   litag.append(b)  <br>
   nav.append(li,litag) 
   
-
+![Screenshot 2023-02-06 15 43 37](https://user-images.githubusercontent.com/105919665/217863828-f1e39f43-bcd5-4c7a-8aca-5a77c0d7085d.png)
+let nav=document.querySelector('.logo').nextElementSibling <br>
+  let contact=document.querySelector('ul').lastElementChild <br>
+nav.removeChild(contact) <br>
+  let li=document.createElement('li') <br>
+  let a=document.createElement('a')  <br>
+  a.textContent='Projects' <br>
+  li.append(a)  <br>
+  let litag=document.createElement('li')  <br>
+  let b =document.createElement('a') <br>
+  b.textContent="Hire Me" <br>
+  litag.append(b)  <br>
+  nav.append(li,litag) <br>
+   nav.removeChild(litag)
    
-  
+   ![Screenshot 2023-02-07 11 29 05](https://user-images.githubusercontent.com/105919665/217864618-13699662-c5d2-4876-8215-13e47bd0eb6c.png)
+   const paragraph = document.querySelectorAll('.hero-left-section p span') <Br>
+ for(let i=0;i<paragraph.length;i++){ <br>
+   let paraspan=paragraph[1] <br>
+  paraspan.textContent="an Employee" <br>
+  console.log(paraspan) <br>
+}
+ 
+ ![Screenshot 2023-02-07 10 08 29](https://user-images.githubusercontent.com/105919665/217865775-6ed8f294-6158-42af-a527-d3066de1f9db.png)
+ let image=document.querySelector('.hero-right-section').firstElementChild <br>
+  image.src='https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg'
+ 
+ ![Screenshot 2023-02-07 10 11 30](https://user-images.githubusercontent.com/105919665/217866189-7202e244-64c0-42d3-8ac5-45f2ad4d9880.png)
+ let buttondiv=document.querySelector('.hero-right-section-btns') <br>
+  let button=document.createElement('button') <br>
+  button.textContent="Support Me" <br>
+  buttondiv.append(button) <br>
+ 
+ 02
+![Screenshot 2023-02-07 11 32 29](https://user-images.githubusercontent.com/105919665/217866855-507fe7cb-d071-4a39-9720-28680d381dde.png)
+ let accordian = document.querySelectorAll(".accordian h3"); <br>
+ accordian.forEach((element) => { <br>
+  element.style.backgroundColor="#d2c2fd" <br>
+  element.addEventListener("click", () => { <br>
+    let para = element.nextElementSibling;  <br>
+    if (para.style.display === "block") { <br>
+      para.style.display = "none";  <br>
+    } else {  <br>
+      para.style.display = "block"; <br>
+    } <br>
+  }); <br>
+}); 
+ ![Screenshot 2023-02-07 11 33 15](https://user-images.githubusercontent.com/105919665/217867615-6cdd473d-6e40-4c45-a73f-08b0596e3aa6.png)
+ let accordiandiv=document.createElement('div') <br>
+accordiandiv.classList.add('accordian') <br>
+let h3=document.createElement('h3') <br>
+h3.textContent="Skills" <br>
+let p=document.createElement('p') <br>
+p.textContent="I posses a very good command over the full stack development technologies like MERN which can be seen in my work over the github" <br>
+accordiandiv.append(h3,p) <br>
+let appenddata=document.querySelector('.accordian-wrapper') <br>
+appenddata.append(accordiandiv)
+
+03
+ ![Screenshot 2023-02-09 21 39 09](https://user-images.githubusercontent.com/105919665/217869357-955c1fc0-4a7a-4abc-9c18-4c3dcaba5b8a.png)
+ let form=document.querySelector('.mainRightDetails') <br>
+  const showForm = document.querySelector('.mainLeftDetails') <br>
+  form.addEventListener('submit', (e) => { <br>
+    e.preventDefault();  <br>
+    const name = form.username.value <br>
+    const email=form.useremail.value <br>
+    const message=form.message.value <br>
+    console.log(name) <br>
+
+   showForm.username.value=name <br>
+   showForm.useremail.value=email <br>
+   showForm.message.value=message <br>
+   form.reset() <br>
+  } )
+
