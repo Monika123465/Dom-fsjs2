@@ -105,23 +105,23 @@ let form=document.querySelector('form')  <br>
     localStorage.setItem('input',JSON.stringify(newdata))
 
     })
-  let maindiv=document.querySelector('body')
-    let newdata=JSON.parse(localStorage.getItem('input'))||[]
-    newdata.forEach(el=>{
-        let div=document.createElement('div')
-        div.style.margin='auto'
-        div.style.backgroundColor="red"
-        div.style.width="400px"
-        div.style.marginRight="340px"
-        div.style.color='white'
-        div.style.marginTop="10px"
-        let p=document.createElement('p')
-        p.innerText=el
-        p.style.marginLeft='20px'
-        div.append(p)
+  let maindiv=document.querySelector('body') <br>
+    let newdata=JSON.parse(localStorage.getItem('input'))||[] <br>
+    newdata.forEach(el=>{ <br>
+        let div=document.createElement('div') <br>
+        div.style.margin='auto'  <br>
+        div.style.backgroundColor="red" <br>
+        div.style.width="400px" <br>
+        div.style.marginRight="340px" <br>
+        div.style.color='white' <br>
+        div.style.marginTop="10px" <br>
+        let p=document.createElement('p') <br>
+        p.innerText=el <br>
+        p.style.marginLeft='20px' <br>
+        div.append(p) <br>
     
-        maindiv.append(div)
-    })
+        maindiv.append(div) <br>
+    }) 
 
 08_Dom Project
 ![Screenshot 2023-02-07 22 24 01](https://user-images.githubusercontent.com/105919665/217852032-6f0225b4-5496-494e-9d9a-b52b567356c4.png)
